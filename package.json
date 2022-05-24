@@ -1,0 +1,9 @@
+{
+  "name": "git-playground",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "http-server": "^14.1.0"
+  }
+}
