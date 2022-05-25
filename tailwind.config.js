@@ -1,7 +1,7 @@
 module.exports = {
-  purge: [],
   content: [
     './public/*.html',
+    './public/tw/*.html',
     './public/js/*.js',
   ],
   theme: {
@@ -9,5 +9,7 @@ module.exports = {
   },
   plugins: [
     require( '@tailwindcss/forms' ),
+    require( '@tailwindcss/typography' ),
+    require( '@tailwindcss/aspect-ratio' ),
   ],
 }
